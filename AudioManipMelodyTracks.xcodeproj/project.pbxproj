@@ -16,6 +16,7 @@
 		CB1CF2C724BBC91C001CF12B /* Misery.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2C624BBC91C001CF12B /* Misery.mp3 */; };
 		CB1CF2CA24BC0A98001CF12B /* BadBlood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */; };
 		CB1CF2CC24BC0A9E001CF12B /* Delilah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */; };
+		CB1CF2CE24BC322E001CF12B /* 100BPM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2CD24BC322D001CF12B /* 100BPM.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CB1CF2C624BBC91C001CF12B /* Misery.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Misery.mp3; path = ../../../../Downloads/Misery.mp3; sourceTree = "<group>"; };
 		CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BadBlood.mp3; path = ../../../../Downloads/BadBlood.mp3; sourceTree = "<group>"; };
 		CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Delilah.mp3; path = ../../../../Downloads/Delilah.mp3; sourceTree = "<group>"; };
+		CB1CF2CD24BC322D001CF12B /* 100BPM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 100BPM.mp3; path = ../../../../Downloads/100BPM.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */,
 				CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */,
 				CB1CF2C624BBC91C001CF12B /* Misery.mp3 */,
+				CB1CF2CD24BC322D001CF12B /* 100BPM.mp3 */,
 			);
 			path = AudioManipMelodyTracks;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				CB1CF2C724BBC91C001CF12B /* Misery.mp3 in Resources */,
 				CB1CF2BC24BBC7F1001CF12B /* Assets.xcassets in Resources */,
 				CB1CF2BA24BBC7F0001CF12B /* Main.storyboard in Resources */,
+				CB1CF2CE24BC322E001CF12B /* 100BPM.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
