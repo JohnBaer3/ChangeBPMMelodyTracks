@@ -13,6 +13,9 @@
 		CB1CF2BA24BBC7F0001CF12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2B824BBC7F0001CF12B /* Main.storyboard */; };
 		CB1CF2BC24BBC7F1001CF12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2BB24BBC7F1001CF12B /* Assets.xcassets */; };
 		CB1CF2BF24BBC7F1001CF12B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2BD24BBC7F1001CF12B /* LaunchScreen.storyboard */; };
+		CB1CF2C724BBC91C001CF12B /* Misery.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2C624BBC91C001CF12B /* Misery.mp3 */; };
+		CB1CF2CA24BC0A98001CF12B /* BadBlood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */; };
+		CB1CF2CC24BC0A9E001CF12B /* Delilah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CB1CF2BB24BBC7F1001CF12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1CF2BE24BBC7F1001CF12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB1CF2C024BBC7F1001CF12B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1CF2C624BBC91C001CF12B /* Misery.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Misery.mp3; path = ../../../../Downloads/Misery.mp3; sourceTree = "<group>"; };
+		CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BadBlood.mp3; path = ../../../../Downloads/BadBlood.mp3; sourceTree = "<group>"; };
+		CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Delilah.mp3; path = ../../../../Downloads/Delilah.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		CB1CF2B124BBC7F0001CF12B /* AudioManipMelodyTracks */ = {
 			isa = PBXGroup;
 			children = (
-				CB1CF2B224BBC7F0001CF12B /* AppDelegate.swift */,
-				CB1CF2B424BBC7F0001CF12B /* SceneDelegate.swift */,
 				CB1CF2B624BBC7F0001CF12B /* ViewController.swift */,
 				CB1CF2B824BBC7F0001CF12B /* Main.storyboard */,
+				CB1CF2C824BBCFAA001CF12B /* SupportingFiles */,
 				CB1CF2BB24BBC7F1001CF12B /* Assets.xcassets */,
 				CB1CF2BD24BBC7F1001CF12B /* LaunchScreen.storyboard */,
 				CB1CF2C024BBC7F1001CF12B /* Info.plist */,
+				CB1CF2C924BC0A98001CF12B /* BadBlood.mp3 */,
+				CB1CF2CB24BC0A9E001CF12B /* Delilah.mp3 */,
+				CB1CF2C624BBC91C001CF12B /* Misery.mp3 */,
 			);
 			path = AudioManipMelodyTracks;
+			sourceTree = "<group>";
+		};
+		CB1CF2C824BBCFAA001CF12B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB1CF2B224BBC7F0001CF12B /* AppDelegate.swift */,
+				CB1CF2B424BBC7F0001CF12B /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1CF2CA24BC0A98001CF12B /* BadBlood.mp3 in Resources */,
 				CB1CF2BF24BBC7F1001CF12B /* LaunchScreen.storyboard in Resources */,
+				CB1CF2CC24BC0A9E001CF12B /* Delilah.mp3 in Resources */,
+				CB1CF2C724BBC91C001CF12B /* Misery.mp3 in Resources */,
 				CB1CF2BC24BBC7F1001CF12B /* Assets.xcassets in Resources */,
 				CB1CF2BA24BBC7F0001CF12B /* Main.storyboard in Resources */,
 			);
